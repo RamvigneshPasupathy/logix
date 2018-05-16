@@ -1,6 +1,7 @@
 package set_2;
 
 /*
+	https://www.geeksforgeeks.org/zoho-interview-set-2-campus/
  	Alternate sorting: Given an array of integers,
  	rearrange the array in such a way that the first element is first maximum and second element is first minimum.
 	
