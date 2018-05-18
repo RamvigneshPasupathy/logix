@@ -22,8 +22,6 @@ public class _3 {
 		int index = scanner.nextInt();
 		
 		printNumberAt(index);
-//		printCombinations(arr, 3);
-		
 		
 	}
 	
@@ -58,32 +56,6 @@ public class _3 {
 				}
 			}
 		}
-	}
-	
-	static void printCombinations(int[] arr, int size) {
-		
-		ArrayList<Integer> output = new ArrayList<Integer>();
-		for(int i=0; i<arr.length; i++) {
-			output.add(arr[i]);
-		}
-		
-		for(int i=1; i<size; i++) {
-			ArrayList<Integer> temp = (ArrayList<Integer>) output.clone();
-			output.clear();
-			
-			for(int j=0; j<temp.size(); j++) {
-				for(int k=0; k<arr.length; k++) {
-//					int element = (int) (temp.get(j) + (Math.pow(10, i) * arr[k]));
-					int element = 10 * temp.get(j) + arr[k];
-					output.add(element);
-				}
-			}
-		}
-		
-		for(int i=0; i<output.size(); i++) {
-			System.out.println(output.get(i));
-		}
-		
 	}
 	
 	static void solution101(int n) {

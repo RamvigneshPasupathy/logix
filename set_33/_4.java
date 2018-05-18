@@ -12,6 +12,8 @@ public class _4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 		printDaysBetween(new int[]{10, 2, 2014}, new int[]{10, 3, 2015});
       	printDaysBetween(new int[]{10, 2, 2000}, new int[]{10, 3, 2000});
       	printDaysBetween(new int[]{10, 2, 2000}, new int[]{10, 2, 2000});
@@ -34,6 +36,7 @@ public class _4 {
 			}
 			days1 += MONTH_DAYS[i-1];
 		}
+		
 		for(int i=1; i<date2[1]; i++) {
 			if(i == 2 && isLeapYear(date2[2])) {
 				days2 += 1;
@@ -52,6 +55,7 @@ public class _4 {
 		int _400 = currentYear / 400;
 		int _100 = currentYear / 100;
 		int _4 = currentYear / 4;
+		
 		return _400 + _4 - _100;
 	}
 	

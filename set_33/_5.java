@@ -24,7 +24,7 @@ public class _5 {
 		}
 		
 		if(digits[n-1] > 0) {
-			count += decodings(digits, n-1);	
+			count = decodings(digits, n-1);	
 		}
 		
 		if(digits[n-2] == 1 || digits[n-2] == 2 && digits[n-1] < 7) {

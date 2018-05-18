@@ -11,24 +11,27 @@ package set_1;
 	  O    R
 	 R       A
 	P          M
-*/ 
+*/
 
 public class _1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "program";
+		String str = "PROGRAM";
 		int len = str.length();
-		for(int i=0; i<len; i++) {
-			for(int j=0; j<len; j++) {
-				if(j == i || j == (len - i - 1)) {
-					System.out.print(str.charAt(i));	
+		for (int i = 0; i < len; i++) {
+			for (int j = 0; j < len; j++) {
+				if (j == i) {
+					System.out.print(str.charAt(i));
+				} else if (j == (len - i - 1)) {
+					System.out.print(str.charAt(len - i - 1));
+
 				} else {
 					System.out.print(" ");
 				}
 			}
 			System.out.println();
 		}
-	}
 
+	}
 }

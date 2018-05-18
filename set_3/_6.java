@@ -34,7 +34,12 @@ public class _6 {
 				i++;
 			}
 			printReverse(str, ++i);
-			System.out.println(sub);
+			
+			if(start == 0) {
+				System.out.println(sub);
+			} else {
+				System.out.print(sub + " ");
+			}
 		}
 	}
 

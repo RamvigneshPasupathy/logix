@@ -3,15 +3,13 @@ package set_3;
 import java.util.ArrayList;
 
 /*
-
 	Given two sorted arrays, merge them such that the elements are not repeated
 	
 	Eg 1: Input:
 	        Array 1: 2,4,5,6,7,9,10,13
 	        Array 2: 2,3,4,5,6,7,8,9,11,15
 	      Output:
-	        Merged array: 2,3,4,5,6,7,8,9,10,11,13,15
-	        
+	        Merged array: 2,3,4,5,6,7,8,9,10,11,13,15	      
  */
 
 public class _5 {
@@ -50,14 +48,11 @@ public class _5 {
 		
 		while(j<size2) {
 			result.add(arr2[j++]);
-		}
-		
-		return result.toArray(new Integer[result.size()]);
-		
-		
+		}		
+		return result.toArray(new Integer[result.size()]);				
 	}
 	
-	static void printArray(Integer[] arr) {
+	static void printArray(Integer[] arr) {		
 		for(int i: arr) {
 			System.out.printf("%d ", i);
 		}

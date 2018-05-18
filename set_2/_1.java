@@ -26,6 +26,7 @@ public class _1 {
 		int len = arr.length;
 		int[] temp = new int[len];
 		
+
 		for(int i=0; i<len; i++) {
 			temp[i] = arr[i];
 		}

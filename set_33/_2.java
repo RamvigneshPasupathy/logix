@@ -28,6 +28,7 @@ public class _2 {
 		
 		boolean iNegative = i<0;
 		boolean jNegative = j<0;
+		
 		i = iNegative ? -i : i;
 		j = jNegative ? -j : j;
 		
@@ -54,7 +55,6 @@ public class _2 {
 		System.out.println("subtraction: " + diff);
 		System.out.println("multiplication: " + product);
 		System.out.println("quotient: " + quotient);
-		System.out.println();
+		System.out.println();		
 	}
-
 }
