@@ -4,13 +4,13 @@ package set_4;
 /*
 
 	Print the given pattern
-	Input: N=3, M=3
+	Input: M=3, N=3
 	Output:
 	X X X
 	X 0 X
 	X X X
 	
-	Input: N=4, M=5
+	Input: M=4, N=5
 	Output:
 	X X X X
 	X 0 0 X
@@ -18,7 +18,7 @@ package set_4;
 	X 0 0 X
 	X X X X
 	
-	Input: N=6, M=7
+	Input: M=6, N=7
 	Output:
 	X X X X X X
 	X 0 0 0 0 X

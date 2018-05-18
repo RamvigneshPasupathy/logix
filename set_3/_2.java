@@ -2,7 +2,8 @@ package set_3;
 
 /*
  	https://www.geeksforgeeks.org/zoho-interview-set-3-campus/
- 	Write a program to sort the elements in odd positions in descending order and elements in ascending order
+ 	Write a program to sort the elements in odd positions in descending order
+ 	and the elements in even positions in ascending order
 
 	Eg 1: Input: 13,2,4,15,12,10,5
 	      Output: 13,2,12,10,5,15,4
